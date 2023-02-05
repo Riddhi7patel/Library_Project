@@ -1,0 +1,49 @@
+.favorite {
+    background-color:  rgb(238, 138, 102);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: stretch;
+  background-color: rgba(185, 144, 242, 0.5);
+  margin-top: 2rem;
+  border-radius: 2rem;
+  border: 20px;
+  
+  
+}
+button span {
+    cursor: pointer;
+    position: relative;
+    
+}
+button:hover {
+    opacity: 1;
+    background-color: rgb(204, 165, 241);
+     
+}
+main {
+    height: 100vh;
+    background-color: rgba(236, 207, 207, 0.5);
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    border-radius: 2rem;
+}
+input{
+    text-align: center;
+    border-style: ridge;
+    border-radius: 5px;
+
+}
+.input-author {
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 12px;
+    border-style: ridge;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
